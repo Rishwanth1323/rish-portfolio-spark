@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { GraduationCap, Award, Calendar, MapPin } from "lucide-react";
+import { GraduationCap, Award, Calendar, MapPin, Shield, Database, Brain } from "lucide-react";
 
 const EducationSection = () => {
   const education = [
@@ -34,17 +34,17 @@ const EducationSection = () => {
     {
       title: "Oracle Java SE 8 Programmer-I",
       issuer: "Oracle",
-      icon: "☕"
+      icon: Shield
     },
     {
       title: "Database Programming with SQL",
       issuer: "Oracle",
-      icon: "🗄️"
+      icon: Database
     },
     {
       title: "Artificial Intelligence Certification",
       issuer: "SSC NASSCOM (skillup online)",
-      icon: "🤖"
+      icon: Brain
     }
   ];
 
@@ -121,7 +121,7 @@ const EducationSection = () => {
                 <Card key={index} className="shadow-card hover:shadow-hover transition-all duration-300 bg-gradient-card border-0">
                   <CardContent className="p-6">
                     <div className="flex items-center gap-4">
-                      <div className="text-3xl">{cert.icon}</div>
+                      <cert.icon className="w-8 h-8 text-primary" />
                       <div>
                         <h4 className="text-lg font-semibold text-primary">{cert.title}</h4>
                         <p className="text-muted-foreground">Issued by {cert.issuer}</p>
