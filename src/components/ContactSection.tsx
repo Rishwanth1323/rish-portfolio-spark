@@ -20,8 +20,8 @@ const ContactSection = () => {
   }, {
     icon: Github,
     label: "GitHub",
-    value: "rishwanth23",
-    href: "https://github.com/rishwanth23"
+    value: "rishwanth132313",
+    href: "https://github.com/rishwanth132313"
   }];
   return <section className="py-20 bg-gradient-hero text-white relative overflow-hidden">
       {/* Background Animation */}
