@@ -69,7 +69,7 @@ const ContactSection = () => {
 
               <div className="text-center space-y-6">
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button variant="premium" size="lg" className="group" onClick={() => window.open('mailto:rishwanthg1323@gmail.com', '_self')}>
+                  <Button variant="premium" size="lg" className="group" onClick={() => window.open('https://mail.google.com/mail/?view=cm&to=rishwanthg1323@gmail.com', '_blank')}>
                     <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
                     Send Email
                   </Button>
