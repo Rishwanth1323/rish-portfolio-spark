@@ -91,9 +91,9 @@ const SkillsSection = () => {
               <CardTitle className="text-2xl text-primary">Architecture Expertise</CardTitle>
             </CardHeader>
             <CardContent className="grid md:grid-cols-2 gap-8">
-              <div>
+              <div className="text-center md:text-left">
                 <h3 className="text-lg font-semibold mb-4 text-primary">Specializations</h3>
-                <div className="space-y-2 text-left">
+                <div className="space-y-2 flex flex-col items-center md:items-start">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
                     <span className="text-muted-foreground">Microservices Architecture</span>
@@ -108,9 +108,9 @@ const SkillsSection = () => {
                   </div>
                 </div>
               </div>
-              <div>
+              <div className="text-center md:text-left">
                 <h3 className="text-lg font-semibold mb-4 text-primary">Current Focus</h3>
-                <div className="space-y-2 text-left">
+                <div className="space-y-2 flex flex-col items-center md:items-start">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full"></div>
                     <span className="text-muted-foreground">Large Language Models (LLMs)</span>
