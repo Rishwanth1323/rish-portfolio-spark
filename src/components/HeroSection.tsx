@@ -18,7 +18,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-primary/10 to-accent/10 border-2 border-primary/20 rounded-full flex items-center justify-center shadow-xl overflow-hidden">
                 <img
-                  src="/src/Images/Screenshot 2025-09-08 001305.png"
+                  src="/profile-photo.png"
                   alt="Rishwanth Gourishetty - Full Stack Developer"
                   className="w-full h-full object-cover rounded-full"
                   onError={(e) => {
